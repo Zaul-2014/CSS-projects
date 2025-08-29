@@ -1,6 +1,20 @@
 body {
     background-color: rgb(177, 187, 140);
+    
 }
 footer {
     background-color: rgb(252, 240, 134);
+}
+div {
+    text-align: center;
+}
+ a:hover {
+    color:green;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+img {
+    max-width: auto;
+    height: 300px;
+    position: relative;
+    left:14px;
 }
