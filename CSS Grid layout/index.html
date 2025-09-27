@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Story Land</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "header header header"
+          "nav video main"
+          "content content content"
+          "footer footer footer";
+        grid-template-columns: 1fr 2fr 2fr;
+        gap: 20px;
+      }
+
+      #title {
+        grid-area: header;
+        transition: all 0.5s ease;
+        font-size: 39px;
+        color: rgb(192, 144, 114);
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        text-decoration-color: #c0a685;
+        text-transform: capitalize;
+        border: 3px solid rgb(158, 125, 82);
+        border-bottom-width: 10px;
+        border-radius: 10px;
+        border-style: outset;
+      }
+
+      #title:hover {
+        transition: all 0.5s ease;
+        font-size: 40px;
+        color: rgb(192, 144, 114);
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        text-decoration-color: #c0a685;
+        text-transform: capitalize;
+        border: 10px solid rgb(158, 125, 82);
+        border-radius: 10px;
+        border-style: outset;
+      }
+
+      #intro {
+        margin-left: 30px;
+        grid-area: main;
+      }
+
+      #nav {
+        grid-area: nav;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+
+      #nav ul {
+        display: flex;
+        flex-direction: column;
+        /* stacks items vertically */
+        gap: 15px;
+        /* optional spacing between items */
+        list-style: none;
+        margin: 0;
+        padding: 10px 20px;
+        border: 5px groove rgb(176, 139, 89);
+        border-radius: 10px;
+        background-color: #fdf5e6;
+        align-items: center;
+        /* centers items horizontally */
+      }
+
+      #nav li a {
+        font-size: 18px;
+        color: rgb(120, 90, 60);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        /* applies to both hover and unhover */
+      }
+
+      #nav li a:hover {
+        font-size: 30px;
+        color: rgb(158, 125, 82);
+      }
+
+      #body {
+        background-color: antiquewhite;
+      }
+
+      #video {
+        grid-area: video;
+        padding: 20px;
+        border: 3px solid rgb(176, 139, 89);
+        border-radius: 10px;
+      }
+      #content {
+        grid-area: content;
+      }
+    </style>
+  </head>
+
+  <body id="body">
+    <div class="grid-container">
+      <h1 id="title">storyland</h1>
+
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="https://github.com/zaul-2014" target="_blank">author</a>
+          </li>
+          <li>
+            <a
+              href="https://home.oxfordowl.co.uk/bookshop/read-with-oxford/biff-chip-and-kipper/"
+              target="_blank"
+              >producers</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <section id="video">
+        <video width="600" height="360" controls>
+          <source src="Data/videos/Book Commercial.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="intro">
+        <p>
+          story land is a fun innovatiive place for kids to grow there knowledge
+          and wisdom to reach there full potential.At here you can get fun
+          dreamble bed time stories as well from here. Go grab yours at story
+          land.prices are made to be affordable.
+        </p>
+      </section>
+      <section id="content">
+        <p>
+  Welcome to Story Land, where imagination takes center stage! This video offers a delightful glimpse into the heart of our storytelling universe—a place where bedtime tales aren't just read, they're experienced. Whether you're a curious child, a parent seeking meaningful stories, or an educator looking for creative ways to inspire young minds, Story Land brings joy, wisdom, and wonder to every viewer. Watch as characters come to life, adventures unfold, and learning becomes a magical journey. From dreamy narratives to playful lessons, this is more than just a video. it's your invitation to explore a world where stories spark growth, laughter, and lifelong curiosity.
+</p>
+    <footer>
+        &copy; go to zaul-2014s discussions tab to message us. All rights reserved
+    </footer>
+    </div>
+  </body>
+</html>
