@@ -18,11 +18,18 @@
   padding: 10px; /* original padding */
 }
 .unordered_list {
+    box-sizing: content-box;
+    text-decoration: none;
     transition: all 0.5s ease;
     border-radius: 1px;
 }
+ul li a {
+    text-decoration: none;
+}
+
 .unordered_list:hover {
     transition: all 0.5s ease;
+    text-decoration: none;
     border: 2px solid rgb(165, 175, 126) ;
     background-color: rgb(165, 175, 126) ;
     border-radius: 5px;
@@ -49,8 +56,9 @@ div {
 a:hover {
     color:green;
     transition: all 0.10s ease;
+    text-decoration:none;
     font-size: large;
-    text-shadow: 2px 2px 20px rgb(0, 0, 0);
+    text-shadow: 2px 2px 20px rgb(52, 47, 47);
 }
 img {
     display: flex;
