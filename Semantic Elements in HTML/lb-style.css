@@ -1,0 +1,36 @@
+#header {
+    background-color: rgb(141, 196, 241);
+}
+#main {
+    background-color: rgb(141, 196, 241);
+}
+#love-bird-img {
+    margin: 10px;
+    transition: all 0.5s ease;
+    width:calc(auto + 10px) ;
+    height:calc(auto + 10px) ;
+}
+#love-bird-img:hover {
+    border: 5px solid rgb(141, 196, 241);
+    border-radius: 10px;
+    margin: 20px;
+    transition: all 0.5s ease;
+    width:calc(auto + 10px) ;
+    height:calc(auto + 10px) ;
+}
+#text-section {
+    justify-content: center;
+    transition: all 0.5s ease;
+    padding: 8px;
+    margin: 10px;
+    font-size: normal;
+    border: 2px solid rgb(0, 74, 111);
+    border-radius: 10px;
+}
+#text-section:hover {
+    justify-content: center;
+    transition: all 0.5s ease;
+    font-size: larger;
+    border: 5px solid rgb(3, 96, 173);
+    box-shadow: 1px 4px 8px rgba(0,0,0,0.2);
+}

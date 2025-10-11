@@ -1,0 +1,86 @@
+.favicon {
+    border-radius: 10px;
+}
+.header:hover {
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease;
+    width: auto;
+    height: calc(auto + 0.5s);
+    padding: 10px;
+    margin: 10%;
+    background-color: rgb(165, 175, 126);
+    border-radius: 20px;
+}
+.header {
+  transition: all 0.5s ease;
+  background-color: rgb(177, 187, 140); /* original color */
+  padding: 10px; /* original padding */
+}
+.unordered_list {
+    transition: all 0.5s ease;
+    border-radius: 1px;
+}
+.unordered_list:hover {
+    transition: all 0.5s ease;
+    border: 2px solid rgb(165, 175, 126) ;
+    background-color: rgb(165, 175, 126) ;
+    border-radius: 5px;
+}
+body {
+    background-color: rgb(177, 187, 140);
+    
+}
+footer {
+    transition: all 0.5s ease;
+    border: 0.1px solid rgb(252, 240, 134) ;
+    border-radius: 10px;
+    background-color: rgb(252, 240, 134);
+}
+footer:hover {
+    transition: all 0.5s ease;
+    border: 5px solid rgb(252, 240, 134) ;
+    border-radius: 10px;
+    background-color: rgb(252, 240, 134);
+}
+div {
+    text-align: center;
+}
+a:hover {
+    color:green;
+    transition: all 0.10s ease;
+    font-size: large;
+    text-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+img {
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+    transition: all 0.5s ease;
+    width:calc(auto + 10px) ;
+    height:calc(auto + 10px) ;
+}
+img:hover {
+    display: flex;
+    justify-self: first baseline;
+    border: 5px solid rgb(177, 187, 140);
+    border-radius: 10px;
+    margin: 20px;
+    transition: all 0.5s ease;
+    width:calc(auto + 10px) ;
+    height:calc(auto + 10px) ;
+}
+.text {
+    transition: all 0.5s ease;
+    padding: 8px;
+    margin: 10px;
+    font-size: normal;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.text:hover {
+    transition: all 0.3s ease;
+    font-size: larger;
+    border: 5px solid black;
+    box-shadow: 1px 4px 8px rgba(0,0,0,0.2);
+}
